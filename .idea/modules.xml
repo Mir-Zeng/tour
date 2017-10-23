@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-common/tour-common.iml" filepath="$PROJECT_DIR$/../tour/tour-common/tour-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/tour-manager-dao.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/tour-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-interface/tour-manager-interface.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager-interface/tour-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/tour-manager-service.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/tour-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/tour-manager-web.iml" filepath="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/tour-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-parent/tour-parent.iml" filepath="$PROJECT_DIR$/../tour/tour-parent/tour-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/tour-portal-dao.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/tour-portal-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-interface/tour-portal-interface.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal-interface/tour-portal-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/tour-portal-service.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/tour-portal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/tour-portal-web.iml" filepath="$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/tour-portal-web.iml" />
+    </modules>
+  </component>
+</project>

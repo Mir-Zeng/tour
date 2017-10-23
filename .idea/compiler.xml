@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tour-common" />
+        <module name="tour-manager-dao" />
+        <module name="tour-manager-interface" />
+        <module name="tour-manager-pojo" />
+        <module name="tour-manager-service" />
+        <module name="tour-manager-web" />
+        <module name="tour-portal-dao" />
+        <module name="tour-portal-interface" />
+        <module name="tour-portal-pojo" />
+        <module name="tour-portal-service" />
+        <module name="tour-portal-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="tour-common" target="1.7" />
+      <module name="tour-manager" target="1.7" />
+      <module name="tour-manager-dao" target="1.7" />
+      <module name="tour-manager-interface" target="1.7" />
+      <module name="tour-manager-pojo" target="1.7" />
+      <module name="tour-manager-service" target="1.7" />
+      <module name="tour-manager-web" target="1.7" />
+      <module name="tour-parent" target="1.7" />
+      <module name="tour-poratl" target="1.7" />
+      <module name="tour-portal" target="1.7" />
+      <module name="tour-portal-dao" target="1.7" />
+      <module name="tour-portal-interface" target="1.7" />
+      <module name="tour-portal-pojo" target="1.7" />
+      <module name="tour-portal-service" target="1.7" />
+      <module name="tour-portal-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

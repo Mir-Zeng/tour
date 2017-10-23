@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.manager.tour.dao.ViewMapper" >
+  <resultMap id="BaseResultMap" type="com.manager.tour.pojo.po.View" >
+    <id column="viewid" property="viewid" jdbcType="INTEGER" />
+    <result column="viewbrief" property="viewbrief" jdbcType="VARCHAR" />
+    <result column="viewimg" property="viewimg" jdbcType="VARCHAR" />
+    <result column="starttime" property="starttime" jdbcType="TIMESTAMP" />
+    <result column="endtime" property="endtime" jdbcType="TIMESTAMP" />
+    <result column="price" property="price" jdbcType="VARCHAR" />
+    <result column="station" property="station" jdbcType="VARCHAR" />
+    <result column="attention" property="attention" jdbcType="VARCHAR" />
+    <result column="introductaion" property="introductaion" jdbcType="VARCHAR" />
+    <result column="cid" property="cid" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    viewid, viewbrief, viewimg, starttime, endtime, price, station, attention, introductaion, 
+    cid, status
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.manager.tour.pojo.po.ViewExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from view
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from view
+    where viewid = #{viewid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from view
+    where viewid = #{viewid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.manager.tour.pojo.po.ViewExample" >
+    delete from view
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.manager.tour.pojo.po.View" >
+    insert into view (viewid, viewbrief, viewimg, 
+      starttime, endtime, price, 
+      station, attention, introductaion, 
+      cid, status)
+    values (#{viewid,jdbcType=INTEGER}, #{viewbrief,jdbcType=VARCHAR}, #{viewimg,jdbcType=VARCHAR}, 
+      #{starttime,jdbcType=TIMESTAMP}, #{endtime,jdbcType=TIMESTAMP}, #{price,jdbcType=VARCHAR}, 
+      #{station,jdbcType=VARCHAR}, #{attention,jdbcType=VARCHAR}, #{introductaion,jdbcType=VARCHAR}, 
+      #{cid,jdbcType=INTEGER}, #{status,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.manager.tour.pojo.po.View" >
+    insert into view
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="viewid != null" >
+        viewid,
+      </if>
+      <if test="viewbrief != null" >
+        viewbrief,
+      </if>
+      <if test="viewimg != null" >
+        viewimg,
+      </if>
+      <if test="starttime != null" >
+        starttime,
+      </if>
+      <if test="endtime != null" >
+        endtime,
+      </if>
+      <if test="price != null" >
+        price,
+      </if>
+      <if test="station != null" >
+        station,
+      </if>
+      <if test="attention != null" >
+        attention,
+      </if>
+      <if test="introductaion != null" >
+        introductaion,
+      </if>
+      <if test="cid != null" >
+        cid,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="viewid != null" >
+        #{viewid,jdbcType=INTEGER},
+      </if>
+      <if test="viewbrief != null" >
+        #{viewbrief,jdbcType=VARCHAR},
+      </if>
+      <if test="viewimg != null" >
+        #{viewimg,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        #{starttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endtime != null" >
+        #{endtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="price != null" >
+        #{price,jdbcType=VARCHAR},
+      </if>
+      <if test="station != null" >
+        #{station,jdbcType=VARCHAR},
+      </if>
+      <if test="attention != null" >
+        #{attention,jdbcType=VARCHAR},
+      </if>
+      <if test="introductaion != null" >
+        #{introductaion,jdbcType=VARCHAR},
+      </if>
+      <if test="cid != null" >
+        #{cid,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.manager.tour.pojo.po.ViewExample" resultType="java.lang.Integer" >
+    select count(*) from view
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update view
+    <set >
+      <if test="record.viewid != null" >
+        viewid = #{record.viewid,jdbcType=INTEGER},
+      </if>
+      <if test="record.viewbrief != null" >
+        viewbrief = #{record.viewbrief,jdbcType=VARCHAR},
+      </if>
+      <if test="record.viewimg != null" >
+        viewimg = #{record.viewimg,jdbcType=VARCHAR},
+      </if>
+      <if test="record.starttime != null" >
+        starttime = #{record.starttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.endtime != null" >
+        endtime = #{record.endtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.price != null" >
+        price = #{record.price,jdbcType=VARCHAR},
+      </if>
+      <if test="record.station != null" >
+        station = #{record.station,jdbcType=VARCHAR},
+      </if>
+      <if test="record.attention != null" >
+        attention = #{record.attention,jdbcType=VARCHAR},
+      </if>
+      <if test="record.introductaion != null" >
+        introductaion = #{record.introductaion,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cid != null" >
+        cid = #{record.cid,jdbcType=INTEGER},
+      </if>
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update view
+    set viewid = #{record.viewid,jdbcType=INTEGER},
+      viewbrief = #{record.viewbrief,jdbcType=VARCHAR},
+      viewimg = #{record.viewimg,jdbcType=VARCHAR},
+      starttime = #{record.starttime,jdbcType=TIMESTAMP},
+      endtime = #{record.endtime,jdbcType=TIMESTAMP},
+      price = #{record.price,jdbcType=VARCHAR},
+      station = #{record.station,jdbcType=VARCHAR},
+      attention = #{record.attention,jdbcType=VARCHAR},
+      introductaion = #{record.introductaion,jdbcType=VARCHAR},
+      cid = #{record.cid,jdbcType=INTEGER},
+      status = #{record.status,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.manager.tour.pojo.po.View" >
+    update view
+    <set >
+      <if test="viewbrief != null" >
+        viewbrief = #{viewbrief,jdbcType=VARCHAR},
+      </if>
+      <if test="viewimg != null" >
+        viewimg = #{viewimg,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        starttime = #{starttime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endtime != null" >
+        endtime = #{endtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="price != null" >
+        price = #{price,jdbcType=VARCHAR},
+      </if>
+      <if test="station != null" >
+        station = #{station,jdbcType=VARCHAR},
+      </if>
+      <if test="attention != null" >
+        attention = #{attention,jdbcType=VARCHAR},
+      </if>
+      <if test="introductaion != null" >
+        introductaion = #{introductaion,jdbcType=VARCHAR},
+      </if>
+      <if test="cid != null" >
+        cid = #{cid,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+    </set>
+    where viewid = #{viewid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.manager.tour.pojo.po.View" >
+    update view
+    set viewbrief = #{viewbrief,jdbcType=VARCHAR},
+      viewimg = #{viewimg,jdbcType=VARCHAR},
+      starttime = #{starttime,jdbcType=TIMESTAMP},
+      endtime = #{endtime,jdbcType=TIMESTAMP},
+      price = #{price,jdbcType=VARCHAR},
+      station = #{station,jdbcType=VARCHAR},
+      attention = #{attention,jdbcType=VARCHAR},
+      introductaion = #{introductaion,jdbcType=VARCHAR},
+      cid = #{cid,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER}
+    where viewid = #{viewid,jdbcType=INTEGER}
+  </update>
+</mapper>
