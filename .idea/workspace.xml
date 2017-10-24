@@ -1,22 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28e3cc0e-2f0d-429a-873f-e1c80ef73abd" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-parent/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-common/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-poratl/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/tour-portal-interface/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/tour-manager-interface/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/target/" />
-    <ignored path="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/target/" />
+    <list default="true" id="28e3cc0e-2f0d-429a-873f-e1c80ef73abd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/TOrderMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/db-test.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/mybatis/mybatis-config-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/spring/spring-dao-test.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dhc_tt_common_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_portal_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_portal_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_8_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-common/tour-common.iml" afterPath="$PROJECT_DIR$/tour-common/tour-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/pom.xml" afterPath="$PROJECT_DIR$/tour-manager/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/tour-manager-dao.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/tour-manager-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-interface/tour-manager-interface.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-interface/tour-manager-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-service/tour-manager-service.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-service/tour-manager-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/tour-manager-web.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/tour-manager-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-parent/tour-parent.iml" afterPath="$PROJECT_DIR$/tour-parent/tour-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/pom.xml" afterPath="$PROJECT_DIR$/tour-portal/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-dao/tour-portal-dao.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-dao/tour-portal-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-interface/tour-portal-interface.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-interface/tour-portal-interface.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-service/tour-portal-service.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-service/tour-portal-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-web/tour-portal-web.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-web/tour-portal-web.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/TOrderMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Order.java" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/TOrder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/OrderExample.java" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/TOrderExample.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/tour-parent/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/target/" />
+    <ignored path="$PROJECT_DIR$/tour-common/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/target/" />
+    <ignored path="$PROJECT_DIR$/tour-poratl/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/tour-portal-dao/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/tour-portal-interface/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/tour-portal-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/tour-portal-service/target/" />
+    <ignored path="$PROJECT_DIR$/tour-portal/tour-portal-web/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/tour-manager-dao/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/tour-manager-interface/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/tour-manager-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/tour-manager-service/target/" />
+    <ignored path="$PROJECT_DIR$/tour-manager/tour-manager-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,110 +91,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/java/com/manager/tour/web/IndexAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-portal/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-584">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="358" column="32" lean-forward="false" selection-start-line="358" selection-start-column="32" selection-end-line="358" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -138,32 +111,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../tour/tour-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/src/main/java/pojo/po/TbOrderItemExample.java" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/src/main/java/dao/TbItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-parent/src/main/resources/generator.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/pojo/po/City.java" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/java/com/manager/tour/web/IndexAction.java" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-service/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-common/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-pojo/src/main/java/pojo/po/TbOrderItemExample.java" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-dao/src/main/java/dao/TbItemParamMapper.java" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tour-parent/src/main/resources/generator.xml" />
+        <option value="$PROJECT_DIR$/tour-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/pojo/po/City.java" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/java/com/manager/tour/web/IndexAction.java" />
+        <option value="$PROJECT_DIR$/tour-portal/tour-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/db-test.properties" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/spring/spring-dao-test.xml" />
       </list>
     </option>
   </component>
@@ -176,9 +151,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\Maven" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven-3.3.9\repo" />
+        <option name="mavenHome" value="D:/maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -218,11 +193,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="29" />
+    <option name="y" value="30" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -349,18 +324,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,15 +348,24 @@
               <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
               <item name="tour-manager-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tour" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
               <item name="tour-manager-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="tour-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tour" type="b2602c69:ProjectViewProjectNode" />
@@ -411,32 +389,6 @@
               <item name="tour" type="b2602c69:ProjectViewProjectNode" />
               <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
               <item name="tour-manager-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -484,23 +436,6 @@
               <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tour" type="b2602c69:ProjectViewProjectNode" />
@@ -519,76 +454,17 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-portal-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-portal-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tour-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="tour-portal-web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.22607385" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -603,11 +479,11 @@
       <recent name="com.manager.tour.web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaworkspace\tour\tour-manager\tour-manager-pojo\src\main\java\com\manager\tour\pojo\po" />
+      <recent name="D:\ideaworkspace\tour\tour-manager\tour-manager-dao\src\main\java\com\manager\tour\dao" />
+      <recent name="D:\ideaworkspace\tour\tour-manager\tour-manager-dao\src\test\resources" />
       <recent name="D:\tour\tour-manager\tour-manager-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\tour\tour-manager\tour-manager-web\src\main\webapp" />
-      <recent name="D:\tour\tour-manager\tour-manager-pojo\src\main\java\com\manager\pojo\po" />
-      <recent name="D:\tour\tour-manager\tour-manager-dao\src\main\java\com\manager\tour\dao" />
-      <recent name="D:\tour\tour-common\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -634,7 +510,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tour" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -689,7 +565,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tour" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -721,30 +597,41 @@
       <workItem from="1508720460479" duration="149000" />
       <workItem from="1508729847720" duration="3225000" />
       <workItem from="1508749012358" duration="2576000" />
+      <workItem from="1508757595149" duration="1324000" />
+      <workItem from="1508759032182" duration="1651000" />
+      <workItem from="1508760756883" duration="40000" />
+      <workItem from="1508760817393" duration="795000" />
+      <workItem from="1508762246168" duration="310000" />
+      <workItem from="1508764899603" duration="1015000" />
+      <workItem from="1508813329002" duration="5575000" />
+      <workItem from="1508819792679" duration="762000" />
+      <workItem from="1508832986854" duration="4464000" />
+      <workItem from="1508838771393" duration="3970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8750000" />
+    <option name="totallyTimeSpent" value="28656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5028653" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19770774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.49713466" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25835866" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2944126" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -757,7 +644,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -770,401 +656,351 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="中国梦想游环境搭建修订版" />
+    <option name="LAST_COMMIT_MESSAGE" value="中国梦想游环境搭建修订版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/src/main/java/dao/TbContentMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/src/main/java/dao/TbItemParamMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/src/main/java/dao/TbItemParamItemMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-dao/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-portal/tour-portal-web/src/main/resources/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="97" column="12" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="97" selection-end-column="12" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-parent/src/main/resources/generator.xml" />
+    <entry file="file://$PROJECT_DIR$/tour-common/src/main/resources/generator.xml" />
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.java" />
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/HotelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/ViewMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/ViewMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/HotelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/OrderExample.java" />
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/ViewExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Order.java" />
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/HotelExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/CityExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/CityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/CityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java77/jdk/src.zip!/java/net/DualStackPlainSocketImpl.java" />
+    <entry file="file://$PROJECT_DIR$/tour-portal/tour-portal-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-portal/tour-portal-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-interface/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-portal/tour-portal-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="891">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-pojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="324">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/db-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/mybatis/mybatis-config-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/src/main/resources/mybatis/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/tour-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-parent/src/main/resources/generator.xml" />
-    <entry file="file://$PROJECT_DIR$/../tour/tour-common/src/main/resources/generator.xml" />
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/TOrderExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="-5346">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/TOrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/HotelMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/ViewMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/ViewMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/HotelMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-81">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
-            <marker date="1508748994846" expanded="true" signature="4081:4189" ph="select from user" />
-            <marker date="1508748994846" expanded="true" signature="4276:4338" ph="delete from " />
-            <marker date="1508748994846" expanded="true" signature="4441:4457" ph="delete from " />
-            <marker date="1508748994846" expanded="true" signature="4637:5155" ph="insert into user... " />
-            <marker date="1508748994846" expanded="true" signature="7268:7293" ph="select count... user" />
-            <marker date="1508748994846" expanded="true" signature="8932:9545" ph="update user " />
-            <marker date="1508748994846" expanded="true" signature="9756:10837" ph="update user " />
-            <marker date="1508748994846" expanded="true" signature="10936:11468" ph="update user " />
+            <marker date="1508832490000" expanded="true" signature="3773:3876" ph="select from t_order" />
+            <marker date="1508832490000" expanded="true" signature="3963:4020" ph="delete from " />
+            <marker date="1508832490000" expanded="true" signature="4125:4144" ph="delete from " />
+            <marker date="1508832490000" expanded="true" signature="4326:4670" ph="insert into t_order... " />
+            <marker date="1508832490000" expanded="true" signature="6203:6231" ph="select count... t_order" />
+            <marker date="1508832490000" expanded="true" signature="7445:7856" ph="update t_ord... " />
+            <marker date="1508832490000" expanded="true" signature="8069:8785" ph="update t_ord... " />
+            <marker date="1508832490000" expanded="true" signature="8886:9244" ph="update t_ord... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/OrderExample.java">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/ViewExample.java">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/java/com/manager/tour/web/IndexAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Order.java">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/HotelExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/CityExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2175">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/webapp/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/CityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508748994850" expanded="true" signature="3397:3505" ph="select from city" />
-            <marker date="1508748994850" expanded="true" signature="3592:3654" ph="delete from " />
-            <marker date="1508748994850" expanded="true" signature="3757:3773" ph="delete from " />
-            <marker date="1508748994850" expanded="true" signature="3953:4108" ph="insert into city... " />
-            <marker date="1508748994850" expanded="true" signature="4932:4957" ph="select count... city" />
-            <marker date="1508748994850" expanded="true" signature="5656:5822" ph="update city " />
-            <marker date="1508748994850" expanded="true" signature="6033:6300" ph="update city " />
-            <marker date="1508748994850" expanded="true" signature="6399:6547" ph="update city " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/CityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
+        <state relative-caret-position="864">
           <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="146">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../java77/jdk/src.zip!/java/net/DualStackPlainSocketImpl.java">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/mybatis/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/spring/spring-dao-test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="463">
           <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding>
-            <element signature="e#945#958#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/resources/spring/spring-service.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="-307">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="-415">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="358" column="32" lean-forward="false" selection-start-line="358" selection-start-column="32" selection-end-line="358" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web/src/main/java/com/manager/tour/web/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-584">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1211,7 +1047,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1223,7 +1059,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tour-manager-web</last-edited>
+          <last-edited>tour-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

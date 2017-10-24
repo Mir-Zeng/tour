@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../tour/tour-manager/tour-manager-web" />
-    <file type="web" url="file://$PROJECT_DIR$/../tour/tour-portal/tour-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/tour-manager/tour-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/tour-portal/tour-portal-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../tour/tour-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../tour-common/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-poratl/pom.xml" />
-        <option value="$PROJECT_DIR$/../tour/tour-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-poratl/pom.xml" />
+        <option value="$PROJECT_DIR$/tour-portal/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../tour/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

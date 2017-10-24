@@ -2,7 +2,7 @@ package com.manager.tour.pojo.po;
 
 import java.util.Date;
 
-public class Order {
+public class TOrder {
     private Integer id;
 
     private Integer uid;
