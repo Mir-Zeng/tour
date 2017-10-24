@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e3cc0e-2f0d-429a-873f-e1c80ef73abd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/TOrderMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/db-test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/mybatis/mybatis-config-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/test/resources/spring/spring-dao-test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dhc_tt_common_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_manager_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tour_portal_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tour_portal_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-common/tour-common.iml" afterPath="$PROJECT_DIR$/tour-common/tour-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/pom.xml" afterPath="$PROJECT_DIR$/tour-manager/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/tour-manager-dao.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/tour-manager-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-interface/tour-manager-interface.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-interface/tour-manager-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/tour-manager-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-service/tour-manager-service.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-service/tour-manager-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-web/tour-manager-web.iml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-web/tour-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-parent/tour-parent.iml" afterPath="$PROJECT_DIR$/tour-parent/tour-parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/pom.xml" afterPath="$PROJECT_DIR$/tour-portal/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-dao/tour-portal-dao.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-dao/tour-portal-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-interface/tour-portal-interface.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-interface/tour-portal-interface.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-pojo/tour-portal-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-service/tour-portal-service.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-service/tour-portal-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour-portal/tour-portal-web/tour-portal-web.iml" afterPath="$PROJECT_DIR$/tour-portal/tour-portal-web/tour-portal-web.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/OrderMapper.xml" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-dao/src/main/java/com/manager/tour/dao/TOrderMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/Order.java" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/TOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/OrderExample.java" afterPath="$PROJECT_DIR$/tour-manager/tour-manager-pojo/src/main/java/com/manager/tour/pojo/po/TOrderExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/tour-parent/target/" />
     <ignored path="$PROJECT_DIR$/tour-manager/target/" />
@@ -193,7 +129,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="29" />
     <option name="y" value="30" />
     <option name="width" value="1400" />
@@ -606,15 +542,23 @@
       <workItem from="1508813329002" duration="5575000" />
       <workItem from="1508819792679" duration="762000" />
       <workItem from="1508832986854" duration="4464000" />
-      <workItem from="1508838771393" duration="3970000" />
+      <workItem from="1508838771393" duration="4345000" />
     </task>
+    <task id="LOCAL-00001" summary="中国梦想游环境搭建修订版">
+      <created>1508845148803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508845148803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28656000" />
+    <option name="totallyTimeSpent" value="29031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
